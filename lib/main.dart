@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gemini/flutter_gemini.dart';
 import 'package:get/get.dart';
 import 'package:tourease/pages/splash/splash_page.dart';
 
 void main() {
+  Gemini.init(apiKey: 'AIzaSyBfGGcYvjUe0lPH9_H69mWdoPfPPY3OfZM');
   runApp(const MyApp());
 }
 
